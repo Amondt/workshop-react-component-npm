@@ -1,0 +1,7 @@
+{
+  "build/umd/package-alex-system.production.min.js": {
+    "bundled": 20664,
+    "minified": 8655,
+    "gzipped": 3137
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "package-alex-system",
+  "version": "1.0.2",
+  "private": false,
+  "description": "workshop on react component on NPM",
+  "homepage": "https://amondt.github.io/workshop-react-component-npm/",
+  "keywords": [
+    "react",
+    "react-component",
+    "alex-system",
+    "becode",
+    "alex"
+  ],
+  "author": "Alexandre MONDT",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amondt/workshop-react-component-npm.git",
+    "directory": "packages/package-alex-system"
+  },
+  "bugs": {
+    "url": "https://github.com/amondt/package-alex-system/issues"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "./index.js",
+  "module": "./esm/index.js"
+}
